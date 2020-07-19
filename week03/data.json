@@ -1,0 +1,73 @@
+{
+    "id": "The Global Object",
+    "children": [
+      {
+        "id": "Value Properties of the Global Object",
+        "children": [
+          { "id": "globalThis" },
+          { "id": "Infinity" },
+          { "id": "NaN" },
+          { "id": "undefined" }
+        ]
+      },
+      {
+        "id": "Function Properties of the Global Object",
+        "children": [
+            { "id": "eval" },
+            { "id": "isFinite" },
+            { "id": "isNaN" },
+            { "id": "parseFloat" },
+            { "id": "parseInt" },
+            { "id": "parseFloat" },
+            { "id": "URI Handling Functions" },
+            { "id": "decodeURI" },
+            { "id": "decodeURIComponent" },
+            { "id": "encodeURI" },
+            { "id": "encodeURIComponent" }
+        ]
+      },
+      {
+        "id": "Constructor Properties of the Global Object",
+        "children": [
+            { "id": "Array"},
+            { "id": "ArrayBuffer"},
+            { "id": "BigInt"},
+            { "id": "BigInt64Array" },
+            { "id": "BigUint64Array" },
+            { "id": "Boolean" },
+            { "id": "DataView" },
+            { "id": "Date" },
+            { "id": "Error" },
+            { "id": "EvalError" },
+            { "id": "Float32Array" },
+            { "id": "Float64Array" }, 
+            { "id": "Function" },
+            { "id": "Int8Array" }, 
+            { "id": "Int16Array" },
+            { "id": "Int32Array" }, 
+            { "id": "Map" },
+            { "id": "Number" },
+            { "id": "Objec" },
+            { "id": "Promise" },
+            { "id": "Proxy" },
+            { "id": "RangeError " },
+            { "id": "ReferenceError" },
+            { "id": "RegExp" },
+            { "id": "Set" },
+            { "id": "SharedArrayBuffer" },
+            { "id": "String" },
+            { "id": "Symbol" },
+            { "id": "SyntaxError" },
+            { "id": "TypeError" },
+            { "id": "Uint8Array" },
+            { "id": "Uint8ClampedArray" },
+            { "id": "Uint16Array" },
+            { "id": "Uint32Array" },
+            { "id": "URIError" },
+            { "id": "WeakMap " },
+            { "id": "WeakSet" }
+        ]
+      }
+    ]
+  }
+  
