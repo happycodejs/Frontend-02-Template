@@ -230,7 +230,7 @@ void async function(){
 
     let response = await request.send()
 
-    //let dom = parser.parseHTML(response.body)
+    let dom = parser.parseHTML(response.body)
 
     /**
      '\n<html maaa=a >\n<head>\n    <style>\nbody div #myid {\n    width: 100px;\n    background-color: #ff5000;\n}\nbody div img {\n    width: 30px;\n    background-color: #f11;\n}\n    </style>\n</head>\n<body>\n    <div>\n        <img id="myid"/>\n        <img />\n    </div>\n</body>\n</html>\n\r\n'
@@ -238,7 +238,7 @@ void async function(){
      * 构建成dom tree
      */
 
-    console.log(response.body)//解析html结构
+    //console.log(response.body)//解析html结构
 
 }()
 
